@@ -1,0 +1,99 @@
+.logo img{
+	width: 200px;
+	height: auto;
+	margin-top: -15px;
+}
+
+.navbar{
+	background-color: #FFF;
+	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #C0392B;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color: #FFF;
+	color: #C0392B;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: #FFF;
+	color: #C0392B;
+}
+
+.navbar, .navbar .container,.navbar-header, .navbar-brand, nav .navbar-nav{
+	min-height: 52px;
+
+}
+
+nav .navbar-nav, .navbar-header{
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+
+ .navbar-default .navbar-nav > li > a{
+ 	color: #474747;
+ }
+
+ .dropdown-menu > li > a{
+ 	padding: 15px 20px;
+ }
+
+ .dropdown-menu ul li a{
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ }
+
+ .message{
+	width: 100%;
+	height: 600px;
+	background-repeat:no-repeat;
+	background-image: url(img/s4copy2.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.intro{
+	padding-top: 100px;
+	text-align: center;
+}
+
+.intro h1{
+	color: #FFF;
+	font-family: 'Hind', sans-serif;
+}
+
+.intro a{
+	background-color: transparent;
+	color: #FFF;
+	font-size: 1.1em;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	border:solid 1px #FFF;
+	margin-top: 80px;
+	text-decoration: none;
+}
+
+.intro a:hover{
+	background-color: #FFF;
+	color: #b62e20;
+}
+
+ @media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+}
