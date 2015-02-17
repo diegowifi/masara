@@ -24,6 +24,11 @@
 	color: #C0392B;
 }
 
+/*Make the dropdown appear on hover*/
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
 	background-color: #FFF;
 	color: #C0392B;
@@ -97,3 +102,32 @@ nav .navbar-nav, .navbar-header{
         float:none;
     }
 }
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media screen and (min-width:0) and (max-width:768px){
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+
+
+
+ }
