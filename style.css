@@ -16,12 +16,12 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-	color: #C0392B;
+	color: #B62E20;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
 	background-color: #FFF;
-	color: #C0392B;
+	color: #B62E20;
 }
 
 /*Make the dropdown appear on hover*/
@@ -31,7 +31,7 @@
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
 	background-color: #FFF;
-	color: #C0392B;
+	color: #B62E20;
 }
 
 .navbar, .navbar .container,.navbar-header, .navbar-brand, nav .navbar-nav{
