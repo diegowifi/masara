@@ -8,6 +8,7 @@
 	background-color: #FFF;
 	margin-bottom: 0;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -50,6 +51,7 @@ nav .navbar-nav, .navbar-header{
 
  .dropdown-menu > li > a{
  	padding: 15px 20px;
+ 	font-weight: 600;
  }
 
  .dropdown-menu ul li a{
@@ -57,12 +59,33 @@ nav .navbar-nav, .navbar-header{
  	margin-bottom: 5px;
  }
 
+ #section-title{
+ 	position: relative;
+    width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	color: #FFF;
+	background-repeat: repeat;
+	background-image: url(../../img/escheresque_ste.png);
+	background-color: #2D2D2D;
+ }
+
+#section-title h2{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
 #details{
-	padding: 80px 0 80px 0;
+	padding: 220px 0 220px 0;
 }
 
 .head-img{
-	width: 120px;
+	width: 70px;
+	margin-top: -20px;
+	display: inline-block;
 }
 
 
@@ -70,6 +93,14 @@ footer{
 	background-color: #2D2D2D;
 	height: 200px;
 	padding:50px 0 50px 0;
+}
+#wrap{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
 }
 
 footer img{
