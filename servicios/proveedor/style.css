@@ -1,0 +1,120 @@
+.logo img{
+	width: 200px;
+	height: auto;
+	margin-top: -15px;
+}
+
+.navbar{
+	background-color: #FFF;
+	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #B62E20;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	background-color: #FFF;
+	color: #B62E20;
+}
+
+/*Make the dropdown appear on hover*/
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: #FFF;
+	color: #B62E20;
+}
+
+.navbar, .navbar .container,.navbar-header, .navbar-brand, nav .navbar-nav{
+	min-height: 52px;
+
+}
+
+nav .navbar-nav, .navbar-header{
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+
+ .navbar-default .navbar-nav > li > a{
+ 	color: #474747;
+ }
+
+ .dropdown-menu > li > a{
+ 	padding: 15px 20px;
+ }
+
+ .dropdown-menu ul li a{
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ }
+
+#details{
+	padding: 80px 0 80px 0;
+}
+
+.head-img{
+	width: 120px;
+}
+
+
+footer{
+	background-color: #2D2D2D;
+	height: 200px;
+	padding:50px 0 50px 0;
+}
+
+footer img{
+	width: 200px;
+
+}
+
+footer p{
+	color: #F3F3F3;
+}
+
+ @media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media screen and (min-width:0) and (max-width:768px){
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+
+
+
+ }
