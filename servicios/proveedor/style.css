@@ -94,6 +94,10 @@ nav .navbar-nav, .navbar-header{
 	padding-bottom: 50px;
 }
 
+.details-desc p{
+	font-size: 1.2em;
+}
+
 .head-img{
 	width: 70px;
 	display: inline-block;
@@ -138,22 +142,37 @@ nav .navbar-nav, .navbar-header{
 	margin: 0 auto;
 	color: #6B6B6B;
 	list-style: none;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right:20px;
-	padding-bottom: 20px;
-	font-size: 1.2em;
+	padding-top: 0px;
+	height: 24px;
+	padding-left: 32px;
+	padding-right:32px;
+	padding-bottom: 0px;
+	margin-bottom: 30px;
+	font-size: 1.25em;
 }
 
 #price ul li i{
 	display: inline-block;
-	color: green;
+	color: #4FAB73;
 }
 
 #price ul li h4{
+	font-weight: 600;
+	margin-left: 10px;
 	display: inline-block;
+}
+
+#features span{
+	display: inline-block;
+	position: absolute;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+#price .double-line{
+	height: 50px;
 }
 
 
@@ -191,8 +210,8 @@ nav .navbar-nav, .navbar-header{
 	border:solid 2px #C0C0C0;
 	background-color: #FFF;*/
 	color: #2D2D2D;
-	padding-top:40px;
-	padding-bottom: 50px;
+	padding-top:30px;
+	padding-bottom: 0px;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 	font-size: 6em;
@@ -203,7 +222,7 @@ nav .navbar-nav, .navbar-header{
 .money .super{
 	font-size: 0.3em;
 	position: relative;
-	top: -41px;
+	top: -38px;
 }
 
 .money .sub{
