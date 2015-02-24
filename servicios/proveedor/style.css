@@ -99,7 +99,7 @@ nav .navbar-nav, .navbar-header{
 }
 
 .head-img{
-	width: 70px;
+	width: 50px;
 	display: inline-block;
 }
 
@@ -140,7 +140,7 @@ nav .navbar-nav, .navbar-header{
 	background-color: #FFF;
 	/*border-top:solid 1px #D5D5D5;*/
 	margin: 0 auto;
-	color: #6B6B6B;
+	color: #646464;
 	list-style: none;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
@@ -186,7 +186,6 @@ nav .navbar-nav, .navbar-header{
 
 #price a{
 	background-color: #4FAB73;
-	border-bottom: solid 6px #3d7c56;
 	border-radius: 2px;
 	color: #FFF;
 	display: table;
@@ -199,6 +198,9 @@ nav .navbar-nav, .navbar-header{
 	text-align: center;
 	text-transform: uppercase;
 	width: 90%;
+	-webkit-box-shadow: 0px 4px 0px #3d7c56;
+    -moz-box-shadow:0px 4px 0px #3d7c56;
+    box-shadow: 0px 4px 0px #3d7c56;
 }
 
 #price a:hover{
@@ -210,8 +212,8 @@ nav .navbar-nav, .navbar-header{
 	border:solid 2px #C0C0C0;
 	background-color: #FFF;*/
 	color: #2D2D2D;
-	padding-top:30px;
-	padding-bottom: 0px;
+	padding-top:20px;
+	padding-bottom: 5px;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 	font-size: 6em;
