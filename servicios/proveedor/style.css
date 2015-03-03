@@ -63,35 +63,43 @@ nav .navbar-nav, .navbar-header{
  	
     width: 100%;
 	height: auto;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-bottom: 20px;
-	color: #2D2D2D;
+	color: #FFF;
 	/*background-repeat: repeat;
 	background-image: url(../../img/escheresque_ste.png);*/
-	background-color: #FFF;
+	background-color: #BD4343;
+	margin-bottom: 30px;
  }
 
 #section-title h2{
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
 #details{
+	background-color: #FFF;
 	padding: 50px 0 120px 0;
+}
+
+.details-wrapper{
+	background-color: #FFF;
 }
 
 .details-desc{
 	padding-right: 35px;
+	background-color: #FFF;
 }
 
 .details-desc h3{
 	display: inline-block;
 	padding-top:20px;
-	padding-left: 20px;
-	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	font-size: 2em;
 }
 
 .details-desc p{
@@ -216,7 +224,7 @@ nav .navbar-nav, .navbar-header{
 	padding-bottom: 5px;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
-	font-size: 6em;
+	font-size: 4em;
 	text-align: center; 
 	margin: 0 auto;
 }
@@ -283,11 +291,18 @@ footer p{
 
 @media screen and (min-width:0) and (max-width:768px){
 	
+	.details-desc{
+		padding-right: 15px;
+	}
+
+	#price{
+		margin-top: 50px;
+	}
+
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) { 
-
 
 
  }
