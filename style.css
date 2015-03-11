@@ -57,6 +57,25 @@ nav .navbar-nav, .navbar-header{
  	margin-bottom: 5px;
  }
 
+ .carousel-control.right, .carousel-control.left{
+ 	background-image:none;
+ }
+
+ .carousel-caption a{
+ 	border: solid 1px #FFF;
+ 	color: #FFF;
+ 	display: inline-table;
+ 	text-decoration: none;
+ 	padding: 20px;
+ 	margin-top: 20px;
+ 	text-shadow:none;
+ }
+
+ .carousel-caption a:hover{
+ 	background-color: #FFF;
+ 	color: #B62E20;
+ }
+
  .message{
 	width: 100%;
 	height: 500px;
@@ -108,6 +127,12 @@ footer img{
 
 footer p{
 	color: #F3F3F3;
+}
+
+@media screen and (min-width: 768px){
+	.carousel-caption{
+		top: 30%;
+    }
 }
 
  @media (min-width: 768px){
