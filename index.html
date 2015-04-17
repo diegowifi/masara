@@ -10,10 +10,10 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 		<title>Masara Group</title>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:600,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Hind:400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 		<link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css">
 		<link rel="stylesheet" href="style.css">
@@ -36,7 +36,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li><a href="#">Inicio</a></li>
-							<li><a href="#">Empresa</a></li>
+							<li><a href="empresa">Empresa</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios en China <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
@@ -64,14 +64,19 @@
 					</div>
 				</div>
 				<div id="carousel-example-generic" class="carousel slide visible-md visible-lg" data-ride="carousel">
-					<!-- Indicators -->
+					<!-- Indicators 
 					<ol class="carousel-indicators">
 						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-					</ol>
+					</ol> -->
+
+					<a class="arrow-down" href="#services">
+						<span class="glyphicon glyphicon-menu-down"></span>
+					</a>
+
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
@@ -125,28 +130,28 @@
 				<div class="container">
 					<div class="row row-eq-height">
 						<div class="col-xs-12 col-md-3 each-service">
-							<div class="box top left"><small>1</small></div>
+							<!-- <div class="box top left"><small>1</small></div> -->
 							<i class="icon ion-eye"></i>
 							<h3>Búsqueda de Proveedor</h3>
 							<p>¿Busca más opciones y a mejor precio en China?</p>
 							
 						</div>
 						<div class="col-xs-12 col-md-3 each-service">
-							<div class="box top left"><small>2</small></div>
+							<!-- <div class="box top left"><small>2</small></div> -->
 							<i class="icon ion-person-stalker"></i>
 							<h3>Visita física a proveedor</h3>
 							<p>¿Ya encontraste proveedor y quieres asegurarte de que sea la mejor opción?</p>
 							
 						</div>
 						<div class="col-xs-12 col-md-3 each-service">
-							<div class="box top left"><small>3</small></div>
+							<!-- <div class="box top left"><small>3</small></div> -->
 							<i class="icon ion-briefcase"></i>
 							<h3>Representación Comercial</h3>
 							<p>¿Te decidiste a comprar y quieres que nos encarguemos de darle seguimiento de principio hasta entregarlo donde lo necesites?</p>
 							
 						</div>
 						<div class="col-xs-12 col-md-3 each-service">
-							<div class="box top left"><small>4</small></div>
+							<!-- <div class="box top left"><small>4</small></div> -->
 							<i class="icon ion-clipboard"></i>
 							<h3>Inspección de calidad</h3>
 							<p>¿Está lista la producción y quieres que verifiquemos la calidad de lo que recibirás?</p>
@@ -159,8 +164,9 @@
 			<section id="map-wrap">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
-							
+						<div class="col-md-6 map-desc">
+							<p>Estamos  presentes en México y China; con personal en Monterrey, Shanghái y Guangzhou para facilitar tus transacciones de negocio. Nuestro propósito es brindarte las herramientas y oportunidades de negocio que el lejano oriente te ofrece, poniéndolas a tu alcance y en tu idioma.
+</p>
 						</div>
 						<div class="col-md-6">
 							<img src="img/world-map4.png">
