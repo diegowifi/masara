@@ -64,19 +64,17 @@
 					</div>
 				</div>
 				<div id="carousel-example-generic" class="carousel slide visible-md visible-lg" data-ride="carousel">
-					<!-- Indicators 
+					<!-- Indicators
 					<ol class="carousel-indicators">
-						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-						<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
 					</ol> -->
-
 					<a class="arrow-down" href="#services">
 						<span class="glyphicon glyphicon-menu-down"></span>
 					</a>
-
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
@@ -129,28 +127,28 @@
 			<section id="services">
 				<div class="container">
 					<div class="row row-eq-height">
-						<div class="col-xs-12 col-md-3 each-service">
+						<div class="col-xs-12 col-md-3 each-service" data-sr="enter left, move 224px">
 							<!-- <div class="box top left"><small>1</small></div> -->
 							<i class="icon ion-eye"></i>
 							<h3>Búsqueda de Proveedor</h3>
 							<p>¿Busca más opciones y a mejor precio en China?</p>
 							
 						</div>
-						<div class="col-xs-12 col-md-3 each-service">
+						<div class="col-xs-12 col-md-3 each-service" data-sr="enter left, move 224px, wait 0.7s">
 							<!-- <div class="box top left"><small>2</small></div> -->
 							<i class="icon ion-person-stalker"></i>
 							<h3>Visita física a proveedor</h3>
 							<p>¿Ya encontraste proveedor y quieres asegurarte de que sea la mejor opción?</p>
 							
 						</div>
-						<div class="col-xs-12 col-md-3 each-service">
+						<div class="col-xs-12 col-md-3 each-service" data-sr="enter left, move 224px, wait 1.4s">
 							<!-- <div class="box top left"><small>3</small></div> -->
 							<i class="icon ion-briefcase"></i>
 							<h3>Representación Comercial</h3>
 							<p>¿Te decidiste a comprar y quieres que nos encarguemos de darle seguimiento de principio hasta entregarlo donde lo necesites?</p>
 							
 						</div>
-						<div class="col-xs-12 col-md-3 each-service">
+						<div class="col-xs-12 col-md-3 each-service" data-sr="enter left, move 224px, wait 2.1s">
 							<!-- <div class="box top left"><small>4</small></div> -->
 							<i class="icon ion-clipboard"></i>
 							<h3>Inspección de calidad</h3>
@@ -160,13 +158,12 @@
 					</div>
 				</div>
 			</section>
-
 			<section id="map-wrap">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 map-desc">
 							<p>Estamos  presentes en México y China; con personal en Monterrey, Shanghái y Guangzhou para facilitar tus transacciones de negocio. Nuestro propósito es brindarte las herramientas y oportunidades de negocio que el lejano oriente te ofrece, poniéndolas a tu alcance y en tu idioma.
-</p>
+							</p>
 						</div>
 						<div class="col-md-6">
 							<img src="img/world-map4.png">
@@ -203,6 +200,10 @@
 			</footer>
 			<script src="bower_components/jquery/dist/jquery.min.js"></script>
 			<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+			<script src="bower_components/scrollReveal.js/dist/scrollReveal.min.js"></script>
+			<script>
+			window.sr = new scrollReveal();
+			</script>
 			<script src="script.js"></script>
 		</body>
 	</html>

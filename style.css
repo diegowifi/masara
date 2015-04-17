@@ -46,6 +46,11 @@ font-weight: 600;
 margin-top: 5px;
 margin-bottom: 5px;
 }
+
+.carousel-inner{
+	height: 100%;
+}
+
 .carousel-caption h1{
 font-size: 2.8em;
 font-family: 'Raleway' ;
@@ -149,8 +154,8 @@ display:         flex;
 }
 #services{
 background-color: #FFF;
-padding-top: 80px;
-padding-bottom: 80px;
+margin-top: 80px;
+margin-bottom: 80px;
 }
 #services .each-service:before {
 content: "";
