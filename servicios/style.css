@@ -76,14 +76,14 @@ nav .navbar-nav, .navbar-header{
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 26px;
     text-transform: uppercase;
 }
 
 #details{
-	background-color: #FFF;
-	background-image: url("../../img/symphony2.png");
-	padding: 20px 0 20px 0;
+	/*background-color: #F4F4F4;*/
+	background-image: url("../img/symphony-white.png");
+	padding: 20px 0 50px 0;
 }
 
 .details-wrapper{
@@ -107,6 +107,7 @@ nav .navbar-nav, .navbar-header{
 
 .details-desc p{
 	font-size: 1.2em;
+	margin-top: 30px;
 }
 
 .head-img{
@@ -125,7 +126,7 @@ nav .navbar-nav, .navbar-header{
 }
 
 #price{
-	border:solid 1.5px #C0C0C0;
+	/*border:solid 1.5px #C0C0C0;*/
 	border-radius: 2px;
 	background-color: #FFF;
 	padding-left: 0;
@@ -157,8 +158,8 @@ nav .navbar-nav, .navbar-header{
 	font-weight: 600;
 	padding-top: 0px;
 	height: 24px;
-	padding-left: 32px;
-	padding-right:32px;
+	padding-left: 20px;
+	margin-right:52px;
 	padding-bottom: 0px;
 	margin-bottom: 30px;
 	font-size: 1.25em;
@@ -184,6 +185,10 @@ nav .navbar-nav, .navbar-header{
 
 #price .double-line{
 	height: 50px;
+}
+
+#price .triple-line{
+	height: 75px;
 }
 
 
@@ -215,7 +220,7 @@ nav .navbar-nav, .navbar-header{
 }
 
 #price a:hover{
-	background-color: #469666;
+	background-color: #303030;
 }
 
 .money{
@@ -235,7 +240,7 @@ nav .navbar-nav, .navbar-header{
 .money .super{
 	font-size: 0.3em;
 	position: relative;
-	top: -38px;
+	top: -26px;
 }
 
 .money .sub{

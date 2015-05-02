@@ -15,13 +15,13 @@
 		<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-		<link rel="stylesheet" href="../bower_components/fontawesome/css/font-awesome.css">
+		<link rel="stylesheet" href="../bower_components/ionicons/css/ionicons.css">
 		<link rel="stylesheet" href="../style.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -37,14 +37,14 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li><a href="../">Inicio</a></li>
-							<li><a href="#">Empresa</a></li>
+							<li><a href="index.html">Empresa</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios en China <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="servicios/proveedor">Búsqueda de proveedor</a></li>
-									<li><a href="#">Visita Física a Fábrica</a></li>
-									<li><a href="#">Representación comercial</a></li>
-									<li><a href="#">Inspección de calidad</a></li>
+									<li><a href="../servicios/proveedor">Búsqueda de proveedor</a></li>
+									<li><a href="../servicios/fabrica">Visita Física a Fábrica</a></li>
+									<li><a href="../servicios/comercial">Representación comercial</a></li>
+									<li><a href="../servicios/calidad">Inspección de calidad</a></li>
 								</ul>
 							</li>
 							<li><a href="#">CONTACTO</a></li>
@@ -55,41 +55,58 @@
 				</header>
 				<section id="company">
 					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<img src="../img/empresa.jpg" class="img-responsive" alt="Responsive image">
-							</div>
-							<div class="col-md-6">
+						<div class="row" id="empresa-desc">
+							<div class="col-md-10 col-md-offset-1">
+							<div class="col-md-8">
 								<h2>Empresa</h2>
 								<p>
 									Masara Group es una comercializadora que busca atender las necesidades de las empresas que buscan importar o exportar, ofreciendo los servicios completos que una empresa o compañía requiere para exportar o importar de China.
 									Apoyamos a las empresas a encontrar ese producto necesario, con las especificaciones requeridas a la perfección y por supuesto nos encargamos que llegue a tiempo hasta el lugar solicitado.
 									Masara Group actúa como canal intermediario con presencia física en Shanghái  por mas de 3 años y Guangzhou, China, y Monterrey, México.
 								</p>
-							</div>
-							</div>
-							<div class="row" id="mision">
-							<div class="col-md-6">
-							<h2>Misión</h2>
+
+								<br/>
+
+								<h2>Misión</h2>
 							<p>
 							Masara Asia Trading busca crear valor satisfaciendo con excelencia al empresario mexicano estrechando sus relaciones comerciales en Asia, especialmente China, de forma diferenciada en la calidad del servicio personalizado.</p>
 							</div>
-							<div class="col-md-6">
-							<img src="../img/mision2.jpg" class="img-responsive" alt="Responsive image">
+							<div class="col-md-3 col-md-offset-1">
+								<img src="../img/tower.png" class="img-responsive" alt="Responsive image">
 							</div>
 							</div>
+							
 						
+					</div>
 					</div>
 				</section>
 				
 				<footer>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-3"><img src="../img/masara-white.png"></div>
-							<div class="col-md-9"><p>Info</p></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-3"><img src="../img/masara-white.png"></div>
+						<div class="col-sm-6 col-md-4 col-md-offset-1 location">
+							<address>
+								<h4>Shanghai</h4>
+								
+								<i class="icon ion-android-mail"></i><p>mariel.saucedo@masaragroup.com</p><br/>
+								<i class="icon ion-social-skype"></i><p>mariel.saucedo</p><br/>
+								<i class="icon ion-ios-telephone"></i> / <i class="icon ion-social-whatsapp-outline"></i><p>+86 18602100149</p><br/>
+								<i class="icon ion-location"></i><p id="address">Renmin Road 777. Huangpu District. Shanghai. China.</p>
+							</address>
+						</div>
+						<div class="col-sm-6 col-md-4 location">
+							<address>
+								<h4>Monterrey</h4>
+								
+								<i class="icon ion-android-mail"></i><p>raul.saucedo@masaragroup.com</p> <br/>
+								<i class="icon ion-ios-telephone"></i> / <i class="icon ion-social-whatsapp-outline"></i><p>+52 18110505582</p> <br/>
+								<i class="icon ion-location"></i><p id="address">Malta 141. Monterrey. Nuevo León. México</p>
+							</address>
 						</div>
 					</div>
-				</footer>
+				</div>
+			</footer>
 				<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 				<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
 			</body>

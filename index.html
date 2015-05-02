@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -40,10 +40,10 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios en China <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Búsqueda de proveedor</a></li>
-									<li><a href="#">Visita Física a Fábrica</a></li>
-									<li><a href="#">Representación comercial</a></li>
-									<li><a href="#">Inspección de calidad</a></li>
+									<li><a href="servicios/proveedor">Búsqueda de proveedor</a></li>
+									<li><a href="servicios/fabrica">Visita Física a Fábrica</a></li>
+									<li><a href="servicios/comercial">Representación comercial</a></li>
+									<li><a href="servicios/calidad">Inspección de calidad</a></li>
 								</ul>
 							</li>
 							<li><a href="#">CONTACTO</a></li>
@@ -81,35 +81,35 @@
 							<img src="img/principal/s1.png" alt="...">
 							<div class="carousel-caption">
 								<h1>Manufactura tus productos en China</h1>
-								<a href="#">Conoce nuestros servicios</a>
+								<a href="/servicios">Conoce nuestros servicios</a>
 							</div>
 						</div>
 						<div class="item">
 							<img style="width=100%" src="img/principal/s2.png" alt="...">
 							<div class="carousel-caption">
 								<h1>¿Buscas más opciones en China?</h1>
-								<a href="#">Búsqueda de Proveedor</a>
+								<a href="servicios/proveedor/">Búsqueda de Proveedor</a>
 							</div>
 						</div>
 						<div class="item">
 							<img style="width=100%" src="img/principal/s3.png" alt="...">
 							<div class="carousel-caption">
 								<h1>¿Ya encontraste Proveedor?</h1>
-								<a href="#">Visita Física a Fábrica</a>
+								<a href="servicios/fabrica">Visita Física a Fábrica</a>
 							</div>
 						</div>
 						<div class="item">
 							<img style="width=100%" src="img/principal/s4.png" alt="...">
 							<div class="carousel-caption">
 								<h1>¿Ya te decidiste a comprar?</h1>
-								<a href="#">Representación Comercial</a>
+								<a href="servicios/comercial">Representación Comercial</a>
 							</div>
 						</div>
 						<div class="item">
 							<img style="width=100%" src="img/principal/s5.png" alt="...">
 							<div class="carousel-caption">
 								<h1>¿Está lista la producción?</h1>
-								<a href="#">Inspección de Calidad</a>
+								<a href="servicios/calidad">Inspección de Calidad</a>
 							</div>
 						</div>
 					</div>
@@ -126,6 +126,7 @@
 			</div>
 			<section id="services">
 				<div class="container">
+					<h4 class="text-center">Te ofrecemos</h4>	
 					<div class="row row-eq-height">
 						<div class="col-xs-12 col-md-3 each-service" data-sr="enter left, move 224px">
 							<!-- <div class="box top left"><small>1</small></div> -->
@@ -162,11 +163,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 map-desc">
-							<p>Estamos  presentes en México y China; con personal en Monterrey, Shanghái y Guangzhou para facilitar tus transacciones de negocio. Nuestro propósito es brindarte las herramientas y oportunidades de negocio que el lejano oriente te ofrece, poniéndolas a tu alcance y en tu idioma.
+							<h2>Somos tu mejor opción</h2>
+							<p>Estamos  presentes en <b>México</b> y <b>China</b>; con personal en Monterrey, Shanghái y Guangzhou para facilitar tus transacciones de negocio. Nuestro propósito es brindarte las herramientas y oportunidades de negocio que el lejano oriente te ofrece, poniéndolas a tu alcance y en tu idioma.
 							</p>
 						</div>
 						<div class="col-md-6">
-							<img src="img/world-map4.png">
+							<img src="img/map.png">
 						</div>
 					</div>
 				</div>
@@ -203,6 +205,9 @@
 			<script src="bower_components/scrollReveal.js/dist/scrollReveal.min.js"></script>
 			<script>
 			window.sr = new scrollReveal();
+
+			$('body').scrollTo('#services',{duration:'slow', offsetTop : '50'});
+
 			</script>
 			<script src="script.js"></script>
 		</body>

@@ -1,3 +1,8 @@
+body{
+  /*Fix nav overlay with padding*/
+  padding-top: 70px; 
+}
+
 .logo img{
 width: 200px;
 height: auto;
@@ -57,7 +62,13 @@ font-family: 'Raleway' ;
 }
 .carousel-control.right, .carousel-control.left{
 background-image:none;
+opacity: 0.3;
 }
+
+.carousel-control.right:hover, .carousel-control.left:hover{
+opacity: 0.6;
+}
+
 .carousel-caption a{
 /*border: solid 1px #FFF;*/
 background-color: #FFF;
@@ -73,6 +84,8 @@ text-shadow:none;
 transition:5s;
 }
 
+
+
 .arrow-down {
   color: #F0F0F0;
   position: absolute;
@@ -85,6 +98,7 @@ transition:5s;
   text-align: center;
   font-size: 2.4em;
   -webkit-animation: down 2s infinite;
+  -moz-animation: down 2s infinite;
   animation: down 2s infinite;
 }
 
@@ -99,10 +113,9 @@ transition:5s;
 }
 
 @keyframes down {
-     0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+     0%   {transform: translateY(0px);}
+    50%  {transform: translateY(15px);}
+    100%   {transform: translateY(0px);}
 }
 
 .carousel-caption a:hover{
@@ -153,20 +166,30 @@ display: -ms-flexbox;
 display:         flex;
 }
 #services{
-background-color: #FFF;
-margin-top: 80px;
-margin-bottom: 80px;
+background-color: #F0F0F0;
+background-image: url(img/symphony2.png);
+padding-top: 60px;
+padding-bottom: 80px;
 }
+
+
+#services h4{
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: "Open Sans";
+	margin-bottom: 30px;
+}
+
 #services .each-service:before {
 content: "";
 border-top: 141.5px solid transparent;
 border-bottom: 141.5px solid transparent;
-border-left: 20px solid #FFF;
+border-left: 20px solid #4B4B4B;
 position: absolute; left: 0; top: 0;
 height: 100%;
 }
 #services .each-service{
-background-color: #DBDBDB;
+background-color: #FFF;
 border-radius: 2px;
 color: #4A4A4A;
 padding-top: 15px;
@@ -182,7 +205,7 @@ margin-right: 20px;
 content: "";
 border-top: 141.5px solid transparent;
 border-bottom: 141.5px solid transparent;
-border-left: 20px solid #DBDBDB;
+border-left: 20px solid #FFF;
 position: absolute; right: -20px; top: 0;
 height: 100%;
 }
@@ -204,6 +227,7 @@ margin: 0 auto;
 
 }
 .each-service h3{
+	font-size: 22px;
 text-align: center;
 margin-top: 0;
 margin-bottom: 20px;
@@ -217,9 +241,11 @@ margin: 0 auto;
 
 .map-desc p{
 	font-size:1.2em;
+	margin-top: 20px;
 }
 
 #map-wrap{
+	/*background-image: url(img/contemp.png);*/
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -274,7 +300,9 @@ float:none;
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media screen and (min-width:0) and (max-width:768px){
-
+	.row-eq-height {
+display: inline-block;
+}
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {

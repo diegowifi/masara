@@ -1,15 +1,34 @@
 #company{
+	background-image: url("../img/empresabg.png");
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 #company h2{
-	color: #B62E20;
+	color: #FFF;
 	font-family: Hind;
-	font-size: 3em;
+	text-transform: uppercase;
+}
+
+#company p{
+	color: #FFEEEE;
+	line-height: 1.45em;
+	font-size: 1.1em;
+	font-family: "Open Sans";
+	font-weight: 400;
+}
+
+#company img{
+	margin: 0 auto;
+}
+
+#empresa-desc, #mision{
+	/*background-color: #FFF;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #mision{
-	padding-top: 100px;
-	padding-bottom: 50px;
+	/*padding-top: 100px;
+	padding-bottom: 50px;*/
 }
