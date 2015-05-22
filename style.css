@@ -1,3 +1,5 @@
+@font-face { font-family: Mini Han; src: url('Mini Han Zhen Guang Biao Font-Simplified Chinese.ttf'); } 
+
 body{
   /*Fix nav overlay with padding*/
   padding-top: 70px; 
@@ -57,8 +59,9 @@ margin-bottom: 5px;
 }
 
 .carousel-caption h1{
-font-size: 2.8em;
+font-size: 2.5em;
 font-family: 'Raleway' ;
+font-weight: bold;
 }
 .carousel-control.right, .carousel-control.left{
 background-image:none;
@@ -155,6 +158,32 @@ text-decoration: none;
 background-color: #FFF;
 color: #b62e20;
 }
+
+
+#why{
+  background-color: #EBEBEB;
+}
+
+#why-inner{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.each-why{
+  border-radius:2px;
+  padding: 20px 60px;
+}
+
+.each-why h3{
+  text-align: center;
+}
+
+.each-why img{
+  display: block;
+  width: 80px;
+  margin: 30px auto;
+}
+
 /*
 * Row with equal height columns
 * --------------------------------------------------
@@ -182,8 +211,8 @@ padding-bottom: 80px;
 
 #services .each-service:before {
 content: "";
-border-top: 141.5px solid transparent;
-border-bottom: 141.5px solid transparent;
+border-top: 169.5px solid transparent;
+border-bottom: 169.5px solid transparent;
 border-left: 20px solid #4B4B4B;
 position: absolute; left: 0; top: 0;
 height: 100%;
@@ -200,14 +229,55 @@ position:relative;
 display: block;
 float: left;
 margin-right: 20px;
+transition:0.5s;
 }
+
+#services .each-service a{
+  border:solid 1px #b62e20;
+  border-radius: 20px;
+  color: #b62e20;
+  display: table;
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+  padding: 10px 20px;
+  margin: 25px auto;
+  text-decoration: none;
+  transition:0.1s;
+}
+
+#services .each-service a:hover{
+  background-color: #b62e20; 
+  color: #FFF;
+}
+
+#services .each-service:nth-child(3) p{
+  margin-bottom: 70px;
+}
+
+/*#services .each-service:hover{
+  background-color: #b62e20;
+  color:#FFF;
+}
+
+#services .each-service:hover i{
+  color: #5e1410;
+}
+
+#services .each-service:hover:after{
+  border-top: 141.5px solid transparent;
+  border-bottom: 141.5px solid transparent;
+  border-left: 20px solid #b62e20;
+}*/
+
 #services .each-service:after {
 content: "";
-border-top: 141.5px solid transparent;
-border-bottom: 141.5px solid transparent;
+border-top: 169.5px solid transparent;
+border-bottom: 169.5px solid transparent;
 border-left: 20px solid #FFF;
 position: absolute; right: -20px; top: 0;
 height: 100%;
+transition:0.5s;
 }
 .box{
 color: #B5B5B5;
@@ -283,6 +353,20 @@ font-size: 12px;
 footer .location{
 margin-right: 0px;
 }
+
+
+@media screen and (max-width: 600px) {
+    #services .each-service:before, #services .each-service:after{
+      display: none;
+    }
+    #services .each-service{
+      padding-left: 0;
+      width: 98%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+}
+
 @media screen and (min-width: 768px){
 .carousel-caption{
 top: 30%;

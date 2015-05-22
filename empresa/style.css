@@ -5,13 +5,13 @@
 }
 
 #company h2{
-	color: #FFF;
+	color: #3d3d3d;
 	font-family: Hind;
 	text-transform: uppercase;
 }
 
 #company p{
-	color: #FFEEEE;
+	color: #666;
 	line-height: 1.45em;
 	font-size: 1.1em;
 	font-family: "Open Sans";
@@ -31,4 +31,21 @@
 #mision{
 	/*padding-top: 100px;
 	padding-bottom: 50px;*/
+}
+
+#empresa-desc{
+	background-color: #FFF;
+}
+
+#empresa-desc img{
+	width: 100%;
+}
+
+#empresa-inner{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.each-why img{
+	width:100px !important;
 }

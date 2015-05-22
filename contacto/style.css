@@ -1,4 +1,59 @@
-.focus { background: #FEF1C1; }
+#form{
+	/*background-color: #B62E20;*/
+	background-image: url(../img/principal/s1.png);
+	
+}
+
+#form-wrap{
+	background-color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+input {
+  padding-top: 9px;
+  padding-left: 2px;
+  padding-bottom: 9px;
+  width: 100%;
+  background:transparent;
+  outline: none;
+  /*text-transform:capitalize;*/
+  font:  1.2em Helvetica, Arial, sans-serif;
+  color:#000;
+  border:none;
+  border-bottom:1px solid #5F5F5F;
+}
+
+input:focus{
+	border-bottom:1px solid #B62E20;
+}
+
+option{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+#write{
+	color: #FFF;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#write img{
+	margin:50px auto;
+	width: 200px;
+}
+
+/*#fieldcontainer1,
+#fielcontainer2,
+#fieldcontainer3,
+#fieldcontainer4,
+#fieldcontainer5{
+	margin-bottom: 20px;
+}*/
+
+/*.focus { background: #FEF1C1; }*/
 	.class123-label { font-family: Verdana, Geneva, sans-serif; font-size: small; color: #000000;}
 	.headline { color: #000000; }
 	.class123-labelmic { font-family: Verdana, Geneva, sans-serif; font-size: xx-small; color: #666666; }
@@ -8,7 +63,7 @@
 	.class123-threecol { float:left; width:30%; margin:0 5px 0 0;}
 	.class123-likert_style_li { display:table-cell; vertical-align:middle; text-align:center; top:0px; padding:0px; /*width:20%;*/ height:50px; margin:0px; font:79%/100% verdana; font-weight:bold; background:#f8f8f8; zoom:1; *display:inline; }
 	.class123-likert_style_li2 { display:table-cell; vertical-align:middle; text-align:center; top:0px; padding:0px; /*width:20%;*/ height:50px; margin:0px; font:79%/100% verdana; zoom:1; *display:inline; }
-	.class123-select { height:1.6em; }
+	.class123-select { height:2.5em; }
 
 	
 
@@ -19,13 +74,13 @@
 	.class123_maintable {}
 	.class123-pagination { float:left; width:99%; /*min-width:550px;*/ font-size:10px; margin:0px; margin-bottom:10px; }
 	#mainform123 .class123-pagination { background-color:#; }.class123-progresscircle { margin:0px !importat; background: #CCC; width: 24px; height: 24px; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; float:left; }
-	.class123-progresscircleactive { margin:0px !importat; background:#FEF1C1; width: 24px; height: 24px; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; }
+	.class123-progresscircleactive { margin:0px !importat; /*background:#FEF1C1;*/ width: 24px; height: 24px; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; }
 	.class123-progresstext { display:table-cell; height:100%; width: 24px; text-align:center; padding-top:3px; font-family: Verdana, Geneva, sans-serif; font-size:13px; }
 	.class123-progressPercDiv { float:left; width:100%; margin:0px !important; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #ccc; padding:2px; }
 	#mainform123 .class123-progressPercDiv { background:#; }
 
-	.class123-progressPercBar { float:left; text-align:right; line-height:23px; padding-right:4px; font-weight:bold; height: 24px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin:0px !importat; background:#FEF1C1;}
-	#mainform123 .class123-progressPercBar { background:#FEF1C1; }
+	.class123-progressPercBar { float:left; text-align:right; line-height:23px; padding-right:4px; font-weight:bold; height: 24px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin:0px !importat; /*background:#FEF1C1;*/}
+	#mainform123 .class123-progressPercBar { /*background:#FEF1C1;*/ }
 
 	.class123-pagename { float:left; font-family: Verdana, Geneva, sans-serif; line-height:14px; margin-left:5px; max-width:85px; margin-top:5px; }
 	.currentPageActive { display:block; }
@@ -73,11 +128,11 @@
         }
 	}
 	
-	.fieldcontainer { float: left; margin:0; padding:0; width:100%; } /* OLD: margin-bottom:3px; also had display:none, which caused bug on form 376500 */
+	.fieldcontainer { float: left; margin:0; padding:0; width:100%; margin-bottom: 15px;} /* OLD: margin-bottom:3px; also had display:none, which caused bug on form 376500 */
 	.fieldcontainer div .rowleft, .fieldcontainer div .rowright { display:block; /*float: left;*/ }
 	
 	.fieldcontainer .rowleft { margin:6px 1%; width:24%; }
-	.fieldcontainer .rowright { margin:6px 1%; width:72%; }
+	.fieldcontainer .rowright { margin:6px 1%; /*width:100%;*/ }
 	.fieldcontainer .rowup { margin:3px 0.5%; width: 96%; float:left; }
 	.fieldcontainer .rowdown { margin:3px 0.5%; width:96%; float:left; }
 	.fieldcontainer .uberfieldlat { margin:3px 1%; }
