@@ -41,8 +41,12 @@ option{
 }
 
 #write img{
-	margin:50px auto;
-	width: 200px;
+	margin:30px auto;
+	width: 120px;
+}
+
+#id123-button-send:hover{
+	background-color: #000;
 }
 
 /*#fieldcontainer1,

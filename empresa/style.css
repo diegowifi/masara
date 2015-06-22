@@ -46,6 +46,13 @@
 	padding-right: 30px;
 }
 
+.each-why{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .each-why img{
 	width:100px !important;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }

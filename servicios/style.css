@@ -82,8 +82,8 @@ nav .navbar-nav, .navbar-header{
 
 #details{
 	/*background-color: #F4F4F4;*/
-	background-image: url("../img/symphony-white.png");
-	padding: 20px 0 50px 0;
+	background-image: url("../img/empresabg.png");
+	padding: 30px 0 30px 0;
 }
 
 .details-wrapper{
@@ -237,6 +237,12 @@ nav .navbar-nav, .navbar-header{
 	margin: 0 auto;
 }
 
+.money p{
+	font-size: 0.4em !important;
+	margin-top: 20px;
+	margin-bottom: -8px;
+}
+
 .money .super{
 	font-size: 0.3em;
 	position: relative;
@@ -253,7 +259,7 @@ nav .navbar-nav, .navbar-header{
 	display: inherit;
 	line-height: 8px;
 	position: relative;
-	top: -15px;
+	top: 0px;
 }
 
 /*.grayscale{
