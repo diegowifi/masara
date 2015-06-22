@@ -230,6 +230,7 @@ display: block;
 float: left;
 margin-right: 20px;
 transition:0.5s;
+text-align: center;
 }
 
 #services .each-service a{
